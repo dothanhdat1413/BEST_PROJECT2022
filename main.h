@@ -1,33 +1,37 @@
-/*Các chân của RF như sau
-1. GND (có ô vuông), đọc từ trên xuống, từ trái sang phải
-2. VCC     <3.3V>
-3. CE      <Cắm đâu cũng được, chỉ cần lúc dùng hàm RF24 radio( ,  ) cần viết đúng>
-4. CSN      10
-5. SCK      13
-6. MOSI     11
-7. MISO     12
-8. IRQ <không cần dùng>
-*/
- #define RXpin 9
- #define TXpin 10
+ //FRONT LEFT WHEEL
+#define FL1 8
+#define FL2 9
+ //FRONT RIGHT WHEEL
+#define FR1 2
+#define FR2 3
+ //BACK LEFT WHEEL
+#define BL1 10
+#define BL2 11
+ //BACK RIGHT WHEEL
+#define BR1 4
+#define BR2 5
+ //PWM
+#define LeftENA 12
+#define LeftENB 13
+#define RightENA 6
+#define RightENB 7
  
- #define VRY A0 //đổi ngược lại so với chân trên mạch để dễ nhớ
- #define VRX A1
- #define JoyMode 8
- 
- #define Tien A2
- #define Lui A3
- 
- #define QuayPhai A4
- #define QuayTrai A5
- 
- #define TienCheoPhai 2
- #define TienCheoTrai 3
- 
- #define LuiCheoPhai 4
- #define LuiCheoTrai 5
- 
- #define AutoMode 6
- #define StopAutoMode 7
- 
+#define trai1 47
+#define trai2 45
+#define phai1 43
+#define phai2 41
+
+#define pwmTien 255
+#define pwmLui 255
+#define saiso 10
+#define pwmQuay 230
+
+
+#define pwmTienLine 255
+#define pwmQuayLine 255
+
+#define pwmCheoNhanh 255
+#define pwmCheoCham 85
+
+
 
